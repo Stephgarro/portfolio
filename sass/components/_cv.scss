@@ -1,0 +1,111 @@
+.beauty-container {
+    width: 320px;
+    height: 101px;
+    background: $thirdth__color;
+    margin-top: 25px;
+}
+
+.cv-container {
+    max-width: 255px;
+    background-color:   $second__color;
+    margin: 0 auto;
+    max-height: 750px;
+    margin-top: -59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cv-picture {
+    width: 148px;
+    height: 86px;
+    border-radius: 35px;
+    margin-top: 25px;
+}
+
+.info-container {
+    width: 162px;
+    height: 237px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.info__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.25em;
+    color: $thirdth__color;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.info__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.25em;
+    color: $fourth__color;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.profile-container {
+    width: 320px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-tittle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.3em;
+    color:  $first__color;
+
+}
+
+.profile-subtittle {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color:  $thirdth__color;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.personalInfo-container {
+    min-height: 85px;
+    background-color:  $fifth__color;
+    margin: 0 auto;
+    min-width: 320px;
+    margin-top: 6px;
+}
+
+.style-container {
+    max-width: 281px;
+    max-height: 40px;
+    background-color:   $second__color;
+    margin: 0 auto;
+}
+
+.personalInfo__description {
+    
+}

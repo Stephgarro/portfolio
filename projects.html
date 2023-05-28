@@ -13,20 +13,23 @@
 </head>
 
 <body>
-  <header>
-    <nav class="ol-nav">
-      <ol>
-        <li><a href="index.html" class="a-ol-nav">Home</a></li>
-        <li><a href="cv.html" class="a-ol-nav">Curriculum</a></li>
-        <li class="name">Stephannie</li>
-        <li><a href="projects.html" class="a-ol-nav">Projects</a></li>
-        <li><a href="contact.html" class="a-ol-nav">Conctact</a></li>
+  <header class="general-container">
+    <button class="menu__btn">
+      <img src="/images/menu.svg" alt>
+    </button>
+    <nav class="menu">
+      <ol class="menu__nav">
+        <li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
+        <li class="menu__list"><a href="cv.html" class="menu__link">Curriculum</a></li>
+        <li class="menu__list menu__list--different">Stephannie</li>
+        <li class="menu__list"><a href="projects.html" class="menu__link">Projects</a></li>
+        <li class="menu__list"><a href="contact.html" class="menu__link">Conctact</a></li>
       </ol>
     </nav>
   </header>
   <main>
-    <div>
-      <h1>ALL MY PROJECTS</h1>
+    <div class="tittle-container">
+      <h1 class="tittle__page">ALL MY PROJECTS</h1>
     </div>
       <img src="/images/learning-project.png" alt="imagen about learn">
       <p>This project is called Infinity learning and it  is about learning web page, Here you can expand your knowledge and develop new skills with the wide variety of online courses. From customized learning programs to specialized courses in areas like technology, business, art and more, we have the perfect option for everyone interested in lifelong learning.</p>
@@ -60,22 +63,39 @@
     <div>
   </main>
   <footer>
-    <h3>Stephannie</h3>
-    <p>Social media</p>
-    <ul>
-      <li><a href="https://www.linkedin.com/public-profile/settings"></a><img src="/images/linked-icon.png" alt="linkeldn icon"></li>
-      <li><a href="https://github.com/Stephgarro"></a><img src="/images/github-icon.png" alt="github-icon"></li>
-      <li><a href="stephgarro2001@gamil.com"></a><img src="/images/mail-icon.png" alt="mail icon"> </li>
-    </ul>
-    <nav class="ol-nav">
-      <ol>
-        <li><a href="index.html" class="a-ol-nav">Home</a></li>
-        <li><a href="cv.html" class="a-ol-nav">Curriculum</a></li>
-        <li><a href="projects.html" class="a-ol-nav">Projects</a></li>
-        <li><a href="contact.html" class="a-ol-nav">Conctact</a></li>
-      </ol>
-    </nav>
+    <div class="footer-container">
+      <h3 class="footer__name">Stephannie</h3>
+      <p class="footer__description">Social media</p>
+      <div class="nav-container">
+        <ul class="social-container">
+          <li>
+            <a href="https://www.linkedin.com/public-profile/settings">
+              <img class="social__icon" src="/images/linked-icon.png" alt="linkedin icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Stephgarro">
+              <img class="social__icon" src="/images/github-icon.png" alt="github icon">
+            </a>
+          </li>
+          <li>
+            <a href="stephgarro2001@gmail.com">
+              <img class="social__icon" src="/images/mail-icon.png" alt="mail icon">
+            </a>
+          </li>
+        </ul>
+      <nav>
+        <ol class="menu-container">
+          <li><a href="index.html" class="menu__link">Home</a></li>
+          <li><a href="cv.html" class="menu__link">Curriculum</a></li>
+          <li><a href="projects.html" class="menu__link">Projects</a></li>
+          <li><a href="contact.html" class="menu__link">Conctact</a></li>
+        </ol>
+      </nav>
+    </div>
+    </div>
   </footer>
+  <script src="/scripts/header.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,54 @@
+.footer-container {
+    width: 320px;
+    min-height: 150px;
+    background: $first__color;
+    margin-top: 471px;
+}
+
+
+.footer__name {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.15em;
+    color: $fifth__color;
+    text-align: center;
+}
+
+.footer__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    color: $fifth__color;
+    padding-left: 10px;
+}
+
+.social-container {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    padding-left: 10px;
+
+}
+
+.social__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-container {
+    list-style: none;
+    display: grid;
+    margin-right: 23px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}

@@ -1,0 +1,48 @@
+.tittle-container {
+    width: 320px;
+    height: 107px;
+    background:  $second__color;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+
+.tittle__page {
+    font-family: 'Satisfy';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    letter-spacing: 0.15em;
+    color:$fourth__color;
+    text-align: center;
+}
+
+.title__description {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    color: $thirdth__color;
+
+
+}
+
+.subtitle-container {
+    width: 320px;
+    height: 72px;
+    background:  $fifth__color;
+}
+
+.subtitle__page {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 46px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: $fourth__color;
+}
